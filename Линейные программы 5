@@ -1,0 +1,24 @@
+package z5;
+import java.util.*;
+
+public class zadanie5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter elapsed time in seconds: " );
+
+        int T = sc.nextInt();
+
+        int hrs, min, sec;
+
+        hrs = T/3600;
+
+        min = (T%3600)/60;
+
+        sec = ((T%60)%60);
+
+
+        System.out.println(hrs + "hrs " + min + "min " + sec + "sec");
+
+
+    }
