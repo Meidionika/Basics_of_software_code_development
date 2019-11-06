@@ -1,0 +1,26 @@
+package я6;
+import java.util.*;
+
+public class zadanie6 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter x");
+
+        double x = sc.nextDouble();
+
+        System.out.println("enter  y");
+
+        double y = sc.nextDouble();
+
+        if ((x <= 4 ) && (x >= -4) && (y >= -3 ) && (y <= 3)){
+            System.out.println("true");
+
+        } else {
+            System.out.println("false");
+        }
+
+
+    }
+}
