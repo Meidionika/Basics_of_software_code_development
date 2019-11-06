@@ -1,0 +1,25 @@
+package z2;
+import java.util.*;
+import static  java.lang.Math.*;
+
+public class zadanie2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println( "Введите число a" );
+        double a = sc.nextDouble();
+
+        System.out.println( "Введите число b" );
+        double b = sc.nextDouble();
+
+        System.out.println( "Введите число c" );
+        double c = sc.nextDouble();
+
+        double rez1 = (sqrt(pow(b, 2) + (4 * a * c)) + b) / (2 * a);
+        double rez2 = (pow( a, 3)*c);
+        double rez3 =  pow( b, -2);
+        double rez4 = rez1 - rez2 + rez3;
+
+
+        System.out.println( "Результат " + rez4 );
+    }
+}
