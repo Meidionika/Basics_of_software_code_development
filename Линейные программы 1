@@ -1,0 +1,23 @@
+package Zadanie1;
+import java.util.*;
+
+public class Zadanie1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Введите число");
+        double a = sc.nextDouble();
+
+        System.out.println("Введите число");
+        double b = sc.nextDouble();
+
+        System.out.println("Введите число");
+        double c = sc.nextDouble();
+
+        double z = ((a-3)*b/2) + c;
+
+        System.out.println("Результат " + z);
+
+
+
+    }
+}
