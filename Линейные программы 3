@@ -1,0 +1,24 @@
+package z3;
+import java.util.*;
+import static  java.lang.Math.*;
+
+public class zadanie3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println( "Enter the first number, please: " );
+        double x = sc.nextDouble();
+
+        System.out.println( "Enter the second number, please: " );
+        double y = sc.nextDouble();
+
+        double rez1 = ((sin(x) + cos(y))/(cos(x) - sin(x) ) );
+
+        double rez2 = tan(x*y);
+
+        double rez = rez1*rez2;
+        
+        System.out.println( "Calculation result is: " + rez);
+
+
+    }
+}
